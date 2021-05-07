@@ -1,0 +1,14 @@
+p{color : white;}
+body{background-color:black;}
+p{text align:middle;
+font-size:30;
+}
+.main{
+    display:flex;
+}
+.middle {
+    width: 1000px;
+}
+.right {
+    flex-grow:1;
+}
