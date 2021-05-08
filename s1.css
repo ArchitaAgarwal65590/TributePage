@@ -1,8 +1,13 @@
-p{color : white;}
-body{background-color:black;}
-p{text align:middle;
-font-size:30;
+p{
+color : white;
+text-align:center;
 }
+body{
+	background-color:black;
+	margin: 0px;
+font-fmaily: "Time New Roman";
+}
+
 .main{
     display:flex;
 }
@@ -10,5 +15,20 @@ font-size:30;
     width: 1000px;
 }
 .right {
-    flex-grow:1;
+	margin:0;
+padding-top: 15%;
+}
+.image {
+	min-height: 100vh;
+	max-width: 100%;
+}
+.quote{
+	font-size:30px;
+}
+.name{
+	font-size: 20px;
+	color: whitesmoke;
+}
+.date{
+	font-color: whitesmoke;
 }
